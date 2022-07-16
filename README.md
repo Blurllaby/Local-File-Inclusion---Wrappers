@@ -21,7 +21,9 @@ To confirm if PHP ZIP Wrapper is available on this website, I send a random payl
 http://challenge01.root-me.org/web-serveur/ch43/index.php?page=zip://shell.jpg%23payload
 ```
 And server sends back a response 
+
 ![image](https://user-images.githubusercontent.com/106916011/179352866-9c40ae61-22fd-43ee-ad5a-44350fcc73fa.png)
+
 not any errors about zip:// is not supported so it is worth trying.
 
 ### 2. Exploit
