@@ -53,6 +53,11 @@ Next, I need to read source of flag-mipkBswUppqwXlq9ZydO.php. Repeat process wit
 
 ![image](https://user-images.githubusercontent.com/106916011/179354098-b4dea985-6db0-4d64-99cd-85ed5736bf46.png)
 
-
-
+### 3. Prevention
+Disallowing execution of PHP files in the image upload directory. There is one way to do this is modify Nginx.conf to something like this:
+```powershell
+location ~* /tmp/upload/.*.php$ {
+	deny all;
+}
+```
 
